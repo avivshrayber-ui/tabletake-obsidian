@@ -25,6 +25,12 @@ Free output leaves covered merged cells blank. Automatic paste requires at least
 
 Normal editor undo restores converted pastes. Tables inserted within a line receive blank lines on either side.
 
+## Privacy and permissions
+
+- **Clipboard access**: TableTake reads the clipboard only when you paste (automatic conversion) or run a paste command, to turn copied spreadsheet cells into a Markdown table. Clipboard content is processed locally and never sent anywhere.
+- **Storage**: settings and the licence/device state are kept with Obsidian's plugin data (`data.json`). Nothing is written to browser storage.
+- **Network**: only licence activation/validation for Pro talks to a server; free features work fully offline.
+
 ## Settings
 
 Enable or disable automatic conversion. Set merged-cell mode, date handling/format/order, source and numeric alignment, inline formatting, header row, column padding, and empty-edge trimming. Automatic headers currently use the first row. Pro controls remain visible and locked for free users. Activate or deactivate your licence in Settings → TableTake.

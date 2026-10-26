@@ -1,6 +1,6 @@
 import type { LicenseStorage } from './storage.js';
-export { chromeStorageAdapter, localStorageAdapter, memoryStorageAdapter } from './storage.js';
-export type { LicenseStorage, ChromeStorageArea, WebStorage } from './storage.js';
+export { memoryStorageAdapter } from './storage.js';
+export type { LicenseStorage } from './storage.js';
 export type InvalidReason = 'no_license' | 'expired' | 'bad_signature' | 'wrong_product' | 'wrong_device' | 'revoked' | 'inactive';
 export interface Entitlement {
   valid: boolean; reason?: InvalidReason; plan: string | null; kind: 'subscription' | 'lifetime' | null;

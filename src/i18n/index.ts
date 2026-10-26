@@ -43,9 +43,7 @@ const locales: Record<string, Partial<Messages>> = {
   'he': he, 
 };
 export function language(): string {
-  let selected: string | null = null;
-  try { selected = window.localStorage.getItem('language'); } catch { /* Restricted storage. */ }
-  const raw = (selected || moment.locale() || 'en').replace('_', '-').toLowerCase();
+  const raw = (moment.locale() || 'en').replace('_', '-').toLowerCase();
   return Object.keys(locales).find(key => key.toLowerCase() === raw) ??
     Object.keys(locales).find(key => key.toLowerCase() === raw.split('-')[0]) ?? 'en';
 }

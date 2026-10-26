@@ -1,7 +1,7 @@
 {
   "id": "tabletake",
   "name": "TableTake",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "minAppVersion": "1.5.0",
   "description": "Paste tables from Excel, Google Sheets and web pages as clean Markdown tables. Keeps merged cells, dates and alignment.",
   "author": "Earthloom",
