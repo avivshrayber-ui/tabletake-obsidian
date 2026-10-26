@@ -1,0 +1,23 @@
+import type { Messages } from './en';
+export default {
+  plugin: 'TableTake', general: '一般', output: '出力', licence: 'ライセンス',
+  autoConvert: '貼り付けた表を自動変換', merge: '結合セル', dates: '日付',
+  dateFormat: '日付の書式', dateOrder: '日付の並び順', keepAlign: '元の配置を保持',
+  autoNumberAlign: '数値を右揃え', inline: 'インライン書式を保持', headerRow: 'ヘッダー行',
+  pad: '列幅を揃える', trimEmpty: '空の行と列を削除',
+  repeat: '内容を繰り返す', blank: '結合セルを空欄にする', sheets: 'Sheets Extended マーカー', html: 'HTML テーブル',
+  keep: '元のまま保持', iso: 'ISO 日付', custom: 'カスタム書式', auto: '自動',
+  DMY: '日 / 月 / 年', MDY: '月 / 日 / 年', YMD: '年 / 月 / 日',
+  first: '最初の行', none: 'ヘッダーなし', pro: 'Pro', unlock: 'Pro を有効にする',
+  free: '無料', active: 'Pro 有効', error: 'エラー: {message}', key: 'ライセンスキー',
+  activate: '有効化', deactivate: '無効化', buy: 'TableTake Pro を購入 - 買い切り $19',
+  disclosure: '有効化時に license.earthloomholdings.com に一度接続します。表が保管庫の外に送信されることはありません。',
+  soon: 'Pro の有効化は近日公開', invalidKey: 'ライセンスキーが無効です。キーを確認して再試行してください。',
+  deviceLimit: 'デバイス数の上限に達しました。他のデバイスで無効化して再試行してください。',
+  inactive: 'このライセンスは無効です。サポートにお問い合わせください。', network: 'ライセンスサーバーに接続できませんでした。接続を確認して再試行してください。',
+  paste: 'Markdown テーブルとして貼り付け', previewCommand: 'プレビュー付きで Markdown テーブルとして貼り付け…',
+  reformat: 'カーソル位置の表を再整形', selection: '選択した TSV/CSV を表に変換',
+  pasted: '表として貼り付けました - Ctrl/Cmd+Z で元に戻す', noTable: '表が見つかりません。', proRequired: 'このコマンドには TableTake Pro が必要です。',
+  preview: '表のプレビュー', source: 'Markdown ソース', rendered: '表示プレビュー', insert: '挿入', cancel: 'キャンセル',
+  renderError: 'プレビューを表示できませんでした。', saveError: 'TableTake の設定を保存できませんでした。',
+} as Partial<Messages>;

@@ -1,0 +1,23 @@
+import type { Messages } from './en';
+export default {
+  plugin: 'TableTake', general: '一般', output: '輸出', licence: '授權',
+  autoConvert: '自動轉換貼上的表格', merge: '合併儲存格', dates: '日期',
+  dateFormat: '日期格式', dateOrder: '日期順序', keepAlign: '保留原始對齊方式',
+  autoNumberAlign: '數字靠右對齊', inline: '保留行內格式', headerRow: '標題列',
+  pad: '補齊欄寬', trimEmpty: '移除空白列與欄',
+  repeat: '重複內容', blank: '將合併儲存格留白', sheets: 'Sheets Extended 標記', html: 'HTML 表格',
+  keep: '保留原樣', iso: 'ISO 日期', custom: '自訂格式', auto: '自動',
+  DMY: '日 / 月 / 年', MDY: '月 / 日 / 年', YMD: '年 / 月 / 日',
+  first: '第一列', none: '無標題列', pro: 'Pro', unlock: '解鎖 Pro',
+  free: '免費', active: 'Pro 已啟用', error: '錯誤：{message}', key: '授權金鑰',
+  activate: '啟用', deactivate: '停用', buy: '購買 TableTake Pro - 一次付費 $19',
+  disclosure: '啟用時會連線至 license.earthloomholdings.com 一次；表格絕不會傳出你的儲存庫。',
+  soon: 'Pro 即將開放啟用', invalidKey: '授權金鑰無效。請檢查金鑰後再試一次。',
+  deviceLimit: '已達裝置數量上限。請在其他裝置上停用後再試一次。',
+  inactive: '此授權尚未啟用。請聯絡支援團隊尋求協助。', network: '無法連線至授權伺服器。請檢查網路連線後再試一次。',
+  paste: '貼上為 Markdown 表格', previewCommand: '預覽並貼上為 Markdown 表格…',
+  reformat: '重新格式化游標所在的表格', selection: '將選取的 TSV/CSV 轉換為表格',
+  pasted: '已貼上為表格 - 按 Ctrl/Cmd+Z 復原', noTable: '找不到表格。', proRequired: '此命令需要 TableTake Pro。',
+  preview: '表格預覽', source: 'Markdown 原始碼', rendered: '算繪預覽', insert: '插入', cancel: '取消',
+  renderError: '無法算繪預覽。', saveError: '無法儲存 TableTake 設定。',
+} as Partial<Messages>;

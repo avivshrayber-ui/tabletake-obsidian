@@ -1,0 +1,23 @@
+import type { Messages } from './en';
+export default {
+  plugin: 'TableTake', general: 'Genel', output: 'Çıktı', licence: 'Lisans',
+  autoConvert: 'Yapıştırılan tabloları otomatik dönüştür', merge: 'Birleştirilmiş hücreler', dates: 'Tarihler',
+  dateFormat: 'Tarih biçimi', dateOrder: 'Tarih sırası', keepAlign: 'Kaynak hizalamasını koru',
+  autoNumberAlign: 'Sayıları sağa hizala', inline: 'Satır içi biçimlendirmeyi koru', headerRow: 'Başlık satırı',
+  pad: 'Sütunları boşluklarla hizala', trimEmpty: 'Boş satır ve sütunları kaldır',
+  repeat: 'İçeriği tekrarla', blank: 'Birleştirilmiş hücreleri boş bırak', sheets: 'Sheets Extended işaretleri', html: 'HTML tablosu',
+  keep: 'Özgün hâli koru', iso: 'ISO tarihi', custom: 'Özel biçim', auto: 'Otomatik',
+  DMY: 'Gün / ay / yıl', MDY: 'Ay / gün / yıl', YMD: 'Yıl / ay / gün',
+  first: 'İlk satır', none: 'Başlık yok', pro: 'Pro', unlock: 'Pro kilidini aç',
+  free: 'Ücretsiz', active: 'Pro etkin', error: 'Hata: {message}', key: 'Lisans anahtarı',
+  activate: 'Etkinleştir', deactivate: 'Devre dışı bırak', buy: 'TableTake Pro satın al - tek seferlik $19',
+  disclosure: 'Etkinleştirme sırasında license.earthloomholdings.com ile bir kez bağlantı kurulur; tablolarınız asla kasanızdan çıkmaz.',
+  soon: 'Pro etkinleştirmesi yakında açılacak', invalidKey: 'Geçersiz lisans anahtarı. Anahtarı kontrol edip tekrar deneyin.',
+  deviceLimit: 'Cihaz sınırına ulaşıldı. Başka bir cihazda lisansı devre dışı bırakıp tekrar deneyin.',
+  inactive: 'Bu lisans etkin değil. Yardım için destek ekibiyle iletişime geçin.', network: 'Lisans sunucusuna bağlanılamadı. Bağlantınızı kontrol edip tekrar deneyin.',
+  paste: 'Markdown tablosu olarak yapıştır', previewCommand: 'Önizlemeyle Markdown tablosu olarak yapıştır…',
+  reformat: 'İmlecin bulunduğu tabloyu yeniden biçimlendir', selection: 'Seçili TSV/CSV verisini tabloya dönüştür',
+  pasted: 'Tablo olarak yapıştırıldı - geri almak için Ctrl/Cmd+Z', noTable: 'Tablo bulunamadı.', proRequired: 'Bu komut için TableTake Pro gerekir.',
+  preview: 'Tablo önizlemesi', source: 'Markdown kaynağı', rendered: 'İşlenmiş önizleme', insert: 'Ekle', cancel: 'İptal',
+  renderError: 'Önizleme oluşturulamadı.', saveError: 'TableTake ayarları kaydedilemedi.',
+} as Partial<Messages>;

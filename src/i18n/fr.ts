@@ -1,0 +1,23 @@
+import type { Messages } from './en';
+export default {
+  plugin: 'TableTake', general: 'Général', output: 'Sortie', licence: 'Licence',
+  autoConvert: 'Convertir automatiquement les tableaux collés', merge: 'Cellules fusionnées', dates: 'Dates',
+  dateFormat: 'Format de date', dateOrder: 'Ordre des éléments de date', keepAlign: 'Conserver l’alignement d’origine',
+  autoNumberAlign: 'Aligner les nombres à droite', inline: 'Conserver la mise en forme en ligne', headerRow: 'Ligne d’en-tête',
+  pad: 'Compléter les colonnes avec des espaces', trimEmpty: 'Supprimer les lignes et colonnes vides',
+  repeat: 'Répéter le contenu', blank: 'Laisser les cellules fusionnées vides', sheets: 'Marqueurs Sheets Extended', html: 'Tableau HTML',
+  keep: 'Conserver l’original', iso: 'Date ISO', custom: 'Format personnalisé', auto: 'Automatique',
+  DMY: 'Jour / mois / année', MDY: 'Mois / jour / année', YMD: 'Année / mois / jour',
+  first: 'Première ligne', none: 'Sans en-tête', pro: 'Pro', unlock: 'Débloquer Pro',
+  free: 'Gratuit', active: 'Pro activé', error: 'Erreur : {message}', key: 'Clé de licence',
+  activate: 'Activer', deactivate: 'Désactiver', buy: 'Acheter TableTake Pro – paiement unique de $19',
+  disclosure: 'L’activation contacte license.earthloomholdings.com une seule fois ; vos tableaux ne quittent jamais votre coffre.',
+  soon: 'L’activation Pro sera bientôt disponible', invalidKey: 'Clé de licence invalide. Vérifiez la clé et réessayez.',
+  deviceLimit: 'Limite d’appareils atteinte. Désactivez un autre appareil et réessayez.',
+  inactive: 'Cette licence est inactive. Contactez l’assistance pour obtenir de l’aide.', network: 'Impossible de joindre le serveur de licences. Vérifiez votre connexion et réessayez.',
+  paste: 'Coller en tant que tableau Markdown', previewCommand: 'Coller en tant que tableau Markdown avec aperçu…',
+  reformat: 'Reformater le tableau sous le curseur', selection: 'Convertir la sélection TSV/CSV en tableau',
+  pasted: 'Collé en tant que tableau – Ctrl/Cmd+Z pour annuler', noTable: 'Aucun tableau trouvé.', proRequired: 'Cette commande nécessite TableTake Pro.',
+  preview: 'Aperçu du tableau', source: 'Source Markdown', rendered: 'Aperçu du rendu', insert: 'Insérer', cancel: 'Annuler',
+  renderError: 'Impossible d’afficher l’aperçu.', saveError: 'Impossible d’enregistrer les paramètres de TableTake.',
+} as Partial<Messages>;

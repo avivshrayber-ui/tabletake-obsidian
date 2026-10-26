@@ -1,0 +1,23 @@
+import type { Messages } from './en';
+export default {
+  plugin: 'TableTake', general: 'عام', output: 'الإخراج', licence: 'الترخيص',
+  autoConvert: 'تحويل الجداول الملصقة تلقائيًا', merge: 'الخلايا المدمجة', dates: 'التواريخ',
+  dateFormat: 'تنسيق التاريخ', dateOrder: 'ترتيب التاريخ', keepAlign: 'الاحتفاظ بمحاذاة المصدر',
+  autoNumberAlign: 'محاذاة الأرقام إلى اليمين', inline: 'الاحتفاظ بتنسيق النص', headerRow: 'صف العناوين',
+  pad: 'محاذاة الأعمدة بالمسافات', trimEmpty: 'إزالة الصفوف والأعمدة الفارغة',
+  repeat: 'تكرار المحتوى', blank: 'ترك الخلايا المدمجة فارغة', sheets: 'علامات Sheets Extended', html: 'جدول HTML',
+  keep: 'الاحتفاظ بالأصل', iso: 'تاريخ ISO', custom: 'تنسيق مخصص', auto: 'تلقائي',
+  DMY: 'يوم / شهر / سنة', MDY: 'شهر / يوم / سنة', YMD: 'سنة / شهر / يوم',
+  first: 'الصف الأول', none: 'بلا عناوين', pro: 'Pro', unlock: 'فتح Pro',
+  free: 'مجاني', active: 'Pro مفعّل', error: 'خطأ: {message}', key: 'مفتاح الترخيص',
+  activate: 'تفعيل', deactivate: 'إلغاء التفعيل', buy: 'شراء TableTake Pro - دفعة واحدة بقيمة $19',
+  disclosure: 'يتصل التفعيل بالموقع license.earthloomholdings.com مرة واحدة؛ لا تغادر جداولك خزنتك أبدًا.',
+  soon: 'تفعيل Pro متاح قريبًا', invalidKey: 'مفتاح الترخيص غير صالح. تحقق من المفتاح وحاول مجددًا.',
+  deviceLimit: 'تم بلوغ الحد الأقصى للأجهزة. ألغِ التفعيل على جهاز آخر وحاول مجددًا.',
+  inactive: 'هذا الترخيص غير مفعّل. تواصل مع الدعم للمساعدة.', network: 'تعذر الاتصال بخادم الترخيص. تحقق من اتصالك وحاول مجددًا.',
+  paste: 'لصق كجدول Markdown', previewCommand: 'لصق كجدول Markdown مع معاينة…',
+  reformat: 'إعادة تنسيق الجدول عند المؤشر', selection: 'تحويل TSV/CSV المحدد إلى جدول',
+  pasted: 'تم اللصق كجدول - Ctrl/Cmd+Z للتراجع', noTable: 'لم يتم العثور على جدول.', proRequired: 'يتطلب هذا الأمر TableTake Pro.',
+  preview: 'معاينة الجدول', source: 'مصدر Markdown', rendered: 'معاينة النتيجة', insert: 'إدراج', cancel: 'إلغاء',
+  renderError: 'تعذر عرض المعاينة.', saveError: 'تعذر حفظ إعدادات TableTake.',
+} as Partial<Messages>;

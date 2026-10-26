@@ -1,0 +1,23 @@
+export const en = {
+  plugin: 'TableTake', general: 'General', output: 'Output', licence: 'Licence',
+  autoConvert: 'Automatically convert pasted tables', merge: 'Merged cells', dates: 'Dates',
+  dateFormat: 'Date format', dateOrder: 'Date order', keepAlign: 'Keep source alignment',
+  autoNumberAlign: 'Right-align numbers', inline: 'Keep inline formatting', headerRow: 'Header row',
+  pad: 'Pad columns', trimEmpty: 'Trim empty rows and columns',
+  repeat: 'Repeat content', blank: 'Blank merged cells', sheets: 'Sheets Extended markers', html: 'HTML table',
+  keep: 'Keep original', iso: 'ISO date', custom: 'Custom format', auto: 'Automatic',
+  DMY: 'Day / month / year', MDY: 'Month / day / year', YMD: 'Year / month / day',
+  first: 'First row', none: 'No header', pro: 'Pro', unlock: 'Unlock Pro',
+  free: 'Free', active: 'Pro active', error: 'Error: {message}', key: 'Licence key',
+  activate: 'Activate', deactivate: 'Deactivate', buy: 'Buy TableTake Pro - $19 one-time',
+  disclosure: 'Activation contacts license.earthloomholdings.com once; your tables never leave your vault.',
+  soon: 'Pro activation opens soon', invalidKey: 'Invalid licence key. Check the key and try again.',
+  deviceLimit: 'Device limit reached. Deactivate another device and try again.',
+  inactive: 'This licence is inactive. Contact support for help.', network: 'Could not contact the licence server. Check your connection and try again.',
+  paste: 'Paste as Markdown table', previewCommand: 'Paste as Markdown table with preview…',
+  reformat: 'Re-format table under cursor', selection: 'Convert selected TSV/CSV to table',
+  pasted: 'Pasted as table - Ctrl/Cmd+Z to undo', noTable: 'No table found.', proRequired: 'This command requires TableTake Pro.',
+  preview: 'Table preview', source: 'Markdown source', rendered: 'Rendered preview', insert: 'Insert', cancel: 'Cancel',
+  renderError: 'Preview could not be rendered.', saveError: 'Could not save TableTake settings.',
+} as const;
+export type Messages = { [K in keyof typeof en]: string };

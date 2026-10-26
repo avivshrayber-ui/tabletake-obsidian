@@ -1,0 +1,23 @@
+import type { Messages } from './en';
+export default {
+  plugin: 'TableTake', general: 'Ogólne', output: 'Wynik', licence: 'Licencja',
+  autoConvert: 'Automatycznie konwertuj wklejane tabele', merge: 'Scalone komórki', dates: 'Daty',
+  dateFormat: 'Format daty', dateOrder: 'Kolejność elementów daty', keepAlign: 'Zachowaj wyrównanie źródłowe',
+  autoNumberAlign: 'Wyrównuj liczby do prawej', inline: 'Zachowaj formatowanie tekstu', headerRow: 'Wiersz nagłówka',
+  pad: 'Wyrównaj szerokość kolumn spacjami', trimEmpty: 'Usuń puste wiersze i kolumny',
+  repeat: 'Powtarzaj zawartość', blank: 'Pozostaw scalone komórki puste', sheets: 'Znaczniki Sheets Extended', html: 'Tabela HTML',
+  keep: 'Zachowaj oryginał', iso: 'Data ISO', custom: 'Własny format', auto: 'Automatycznie',
+  DMY: 'Dzień / miesiąc / rok', MDY: 'Miesiąc / dzień / rok', YMD: 'Rok / miesiąc / dzień',
+  first: 'Pierwszy wiersz', none: 'Bez nagłówka', pro: 'Pro', unlock: 'Odblokuj Pro',
+  free: 'Bezpłatna', active: 'Pro aktywne', error: 'Błąd: {message}', key: 'Klucz licencyjny',
+  activate: 'Aktywuj', deactivate: 'Dezaktywuj', buy: 'Kup TableTake Pro — $19 jednorazowo',
+  disclosure: 'Aktywacja łączy się jednorazowo z license.earthloomholdings.com; Twoje tabele nigdy nie opuszczają skarbca.',
+  soon: 'Aktywacja Pro już wkrótce', invalidKey: 'Nieprawidłowy klucz licencyjny. Sprawdź klucz i spróbuj ponownie.',
+  deviceLimit: 'Osiągnięto limit urządzeń. Dezaktywuj inne urządzenie i spróbuj ponownie.',
+  inactive: 'Ta licencja jest nieaktywna. Skontaktuj się z pomocą techniczną.', network: 'Nie udało się połączyć z serwerem licencji. Sprawdź połączenie i spróbuj ponownie.',
+  paste: 'Wklej jako tabelę Markdown', previewCommand: 'Wklej jako tabelę Markdown z podglądem…',
+  reformat: 'Sformatuj ponownie tabelę pod kursorem', selection: 'Konwertuj zaznaczony TSV/CSV na tabelę',
+  pasted: 'Wklejono jako tabelę — Ctrl/Cmd+Z, aby cofnąć', noTable: 'Nie znaleziono tabeli.', proRequired: 'To polecenie wymaga TableTake Pro.',
+  preview: 'Podgląd tabeli', source: 'Źródło Markdown', rendered: 'Podgląd wyniku', insert: 'Wstaw', cancel: 'Anuluj',
+  renderError: 'Nie udało się wyświetlić podglądu.', saveError: 'Nie udało się zapisać ustawień TableTake.',
+} as Partial<Messages>;

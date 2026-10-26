@@ -1,0 +1,23 @@
+import type { Messages } from './en';
+export default {
+  plugin: 'TableTake', general: 'Generelt', output: 'Utdata', licence: 'Lisens',
+  autoConvert: 'Konverter innlimte tabeller automatisk', merge: 'Sammenslåtte celler', dates: 'Datoer',
+  dateFormat: 'Datoformat', dateOrder: 'Datorekkefølge', keepAlign: 'Behold opprinnelig justering',
+  autoNumberAlign: 'Høyrejuster tall', inline: 'Behold formatering i teksten', headerRow: 'Overskriftsrad',
+  pad: 'Fyll ut kolonner med mellomrom', trimEmpty: 'Fjern tomme rader og kolonner',
+  repeat: 'Gjenta innhold', blank: 'La sammenslåtte celler være tomme', sheets: 'Sheets Extended-markører', html: 'HTML-tabell',
+  keep: 'Behold originalen', iso: 'ISO-dato', custom: 'Egendefinert format', auto: 'Automatisk',
+  DMY: 'Dag / måned / år', MDY: 'Måned / dag / år', YMD: 'År / måned / dag',
+  first: 'Første rad', none: 'Ingen overskriftsrad', pro: 'Pro', unlock: 'Lås opp Pro',
+  free: 'Gratis', active: 'Pro er aktiv', error: 'Feil: {message}', key: 'Lisensnøkkel',
+  activate: 'Aktiver', deactivate: 'Deaktiver', buy: 'Kjøp TableTake Pro – engangsbetaling på $19',
+  disclosure: 'Aktiveringen kontakter license.earthloomholdings.com én gang; tabellene dine forlater aldri hvelvet ditt.',
+  soon: 'Pro-aktivering blir snart tilgjengelig', invalidKey: 'Ugyldig lisensnøkkel. Kontroller nøkkelen og prøv igjen.',
+  deviceLimit: 'Enhetsgrensen er nådd. Deaktiver en annen enhet og prøv igjen.',
+  inactive: 'Denne lisensen er inaktiv. Kontakt brukerstøtte for hjelp.', network: 'Kunne ikke kontakte lisensserveren. Kontroller tilkoblingen og prøv igjen.',
+  paste: 'Lim inn som Markdown-tabell', previewCommand: 'Lim inn som Markdown-tabell med forhåndsvisning…',
+  reformat: 'Formater tabellen ved markøren på nytt', selection: 'Konverter valgt TSV/CSV til tabell',
+  pasted: 'Limt inn som tabell – Ctrl/Cmd+Z for å angre', noTable: 'Fant ingen tabell.', proRequired: 'Denne kommandoen krever TableTake Pro.',
+  preview: 'Forhåndsvisning av tabell', source: 'Markdown-kilde', rendered: 'Rendret forhåndsvisning', insert: 'Sett inn', cancel: 'Avbryt',
+  renderError: 'Kunne ikke vise forhåndsvisningen.', saveError: 'Kunne ikke lagre innstillingene for TableTake.',
+} as Partial<Messages>;

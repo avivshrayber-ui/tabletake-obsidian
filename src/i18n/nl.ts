@@ -1,0 +1,23 @@
+import type { Messages } from './en';
+export default {
+  plugin: 'TableTake', general: 'Algemeen', output: 'Uitvoer', licence: 'Licentie',
+  autoConvert: 'Geplakte tabellen automatisch omzetten', merge: 'Samengevoegde cellen', dates: 'Datums',
+  dateFormat: 'Datumnotatie', dateOrder: 'Datumvolgorde', keepAlign: 'Oorspronkelijke uitlijning behouden',
+  autoNumberAlign: 'Getallen rechts uitlijnen', inline: 'Inline-opmaak behouden', headerRow: 'Koprij',
+  pad: 'Kolommen opvullen met spaties', trimEmpty: 'Lege rijen en kolommen verwijderen',
+  repeat: 'Inhoud herhalen', blank: 'Samengevoegde cellen leeg laten', sheets: 'Sheets Extended-markeringen', html: 'HTML-tabel',
+  keep: 'Origineel behouden', iso: 'ISO-datum', custom: 'Aangepaste notatie', auto: 'Automatisch',
+  DMY: 'Dag / maand / jaar', MDY: 'Maand / dag / jaar', YMD: 'Jaar / maand / dag',
+  first: 'Eerste rij', none: 'Geen koprij', pro: 'Pro', unlock: 'Pro ontgrendelen',
+  free: 'Gratis', active: 'Pro actief', error: 'Fout: {message}', key: 'Licentiesleutel',
+  activate: 'Activeren', deactivate: 'Deactiveren', buy: 'TableTake Pro kopen – eenmalig $19',
+  disclosure: 'Bij activering wordt eenmalig contact gemaakt met license.earthloomholdings.com; je tabellen verlaten nooit je kluis.',
+  soon: 'Pro activeren is binnenkort mogelijk', invalidKey: 'Ongeldige licentiesleutel. Controleer de sleutel en probeer het opnieuw.',
+  deviceLimit: 'Apparaatlimiet bereikt. Deactiveer een ander apparaat en probeer het opnieuw.',
+  inactive: 'Deze licentie is niet actief. Neem contact op met de ondersteuning voor hulp.', network: 'Kan de licentieserver niet bereiken. Controleer je verbinding en probeer het opnieuw.',
+  paste: 'Plakken als Markdown-tabel', previewCommand: 'Plakken als Markdown-tabel met voorbeeld…',
+  reformat: 'Tabel onder de cursor opnieuw opmaken', selection: 'Geselecteerde TSV/CSV omzetten naar tabel',
+  pasted: 'Geplakt als tabel – Ctrl/Cmd+Z om ongedaan te maken', noTable: 'Geen tabel gevonden.', proRequired: 'Deze opdracht vereist TableTake Pro.',
+  preview: 'Tabelvoorbeeld', source: 'Markdown-bron', rendered: 'Weergavevoorbeeld', insert: 'Invoegen', cancel: 'Annuleren',
+  renderError: 'Kan het voorbeeld niet weergeven.', saveError: 'Kan de instellingen van TableTake niet opslaan.',
+} as Partial<Messages>;

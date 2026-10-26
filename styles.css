@@ -1,0 +1,9 @@
+.tabletake-modal { width: min(1000px, 95vw); }
+.tabletake-columns { display: grid; grid-template-columns: minmax(240px, 1fr) minmax(0, 2fr); gap: 20px; }
+.tabletake-options, .tabletake-preview { min-width: 0; }
+.tabletake-options .setting-item { flex-wrap: wrap; gap: 8px; }
+.tabletake-source { direction: ltr; unicode-bidi: isolate; text-align: left; white-space: pre; overflow: auto; max-height: 320px; padding: 12px; background: var(--background-secondary); color: var(--text-normal); }
+.tabletake-preview { overflow: auto; }
+.tabletake-pro-badge { margin-inline-start: 8px; padding: 2px 6px; border-radius: 4px; background: var(--interactive-accent); color: var(--text-on-accent); font-size: var(--font-smallest); }
+.tabletake-actions { display: flex; justify-content: flex-end; gap: 8px; margin-top: 16px; }
+@media (max-width: 600px) { .tabletake-columns { grid-template-columns: minmax(0, 1fr); } }

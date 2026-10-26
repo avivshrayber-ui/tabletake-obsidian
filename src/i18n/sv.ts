@@ -1,0 +1,23 @@
+import type { Messages } from './en';
+export default {
+  plugin: 'TableTake', general: 'Allmänt', output: 'Utdata', licence: 'Licens',
+  autoConvert: 'Konvertera inklistrade tabeller automatiskt', merge: 'Sammanfogade celler', dates: 'Datum',
+  dateFormat: 'Datumformat', dateOrder: 'Datumordning', keepAlign: 'Behåll ursprunglig justering',
+  autoNumberAlign: 'Högerjustera tal', inline: 'Behåll formatering i texten', headerRow: 'Rubrikrad',
+  pad: 'Fyll ut kolumner med blanksteg', trimEmpty: 'Ta bort tomma rader och kolumner',
+  repeat: 'Upprepa innehåll', blank: 'Lämna sammanfogade celler tomma', sheets: 'Sheets Extended-markörer', html: 'HTML-tabell',
+  keep: 'Behåll originalet', iso: 'ISO-datum', custom: 'Anpassat format', auto: 'Automatiskt',
+  DMY: 'Dag / månad / år', MDY: 'Månad / dag / år', YMD: 'År / månad / dag',
+  first: 'Första raden', none: 'Ingen rubrikrad', pro: 'Pro', unlock: 'Lås upp Pro',
+  free: 'Gratis', active: 'Pro aktivt', error: 'Fel: {message}', key: 'Licensnyckel',
+  activate: 'Aktivera', deactivate: 'Inaktivera', buy: 'Köp TableTake Pro – engångsbetalning på $19',
+  disclosure: 'Aktiveringen kontaktar license.earthloomholdings.com en gång; dina tabeller lämnar aldrig ditt valv.',
+  soon: 'Pro-aktivering blir snart tillgänglig', invalidKey: 'Ogiltig licensnyckel. Kontrollera nyckeln och försök igen.',
+  deviceLimit: 'Enhetsgränsen har nåtts. Inaktivera en annan enhet och försök igen.',
+  inactive: 'Den här licensen är inaktiv. Kontakta supporten för hjälp.', network: 'Det gick inte att kontakta licensservern. Kontrollera din anslutning och försök igen.',
+  paste: 'Klistra in som Markdown-tabell', previewCommand: 'Klistra in som Markdown-tabell med förhandsvisning…',
+  reformat: 'Formatera om tabellen vid markören', selection: 'Konvertera markerad TSV/CSV till tabell',
+  pasted: 'Inklistrat som tabell – Ctrl/Cmd+Z för att ångra', noTable: 'Ingen tabell hittades.', proRequired: 'Det här kommandot kräver TableTake Pro.',
+  preview: 'Förhandsvisning av tabell', source: 'Markdown-källkod', rendered: 'Renderad förhandsvisning', insert: 'Infoga', cancel: 'Avbryt',
+  renderError: 'Det gick inte att visa förhandsvisningen.', saveError: 'Det gick inte att spara inställningarna för TableTake.',
+} as Partial<Messages>;

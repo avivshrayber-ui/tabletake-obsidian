@@ -1,0 +1,23 @@
+import type { Messages } from './en';
+export default {
+  plugin: 'TableTake', general: 'Generale', output: 'Output', licence: 'Licenza',
+  autoConvert: 'Converti automaticamente le tabelle incollate', merge: 'Celle unite', dates: 'Date',
+  dateFormat: 'Formato data', dateOrder: 'Ordine della data', keepAlign: 'Mantieni l’allineamento originale',
+  autoNumberAlign: 'Allinea i numeri a destra', inline: 'Mantieni la formattazione in linea', headerRow: 'Riga di intestazione',
+  pad: 'Riempi le colonne con spazi', trimEmpty: 'Rimuovi righe e colonne vuote',
+  repeat: 'Ripeti il contenuto', blank: 'Lascia vuote le celle unite', sheets: 'Marcatori di Sheets Extended', html: 'Tabella HTML',
+  keep: 'Mantieni l’originale', iso: 'Data ISO', custom: 'Formato personalizzato', auto: 'Automatico',
+  DMY: 'Giorno / mese / anno', MDY: 'Mese / giorno / anno', YMD: 'Anno / mese / giorno',
+  first: 'Prima riga', none: 'Nessuna intestazione', pro: 'Pro', unlock: 'Sblocca Pro',
+  free: 'Gratis', active: 'Pro attivo', error: 'Errore: {message}', key: 'Chiave di licenza',
+  activate: 'Attiva', deactivate: 'Disattiva', buy: 'Acquista TableTake Pro – pagamento unico di $19',
+  disclosure: 'L’attivazione contatta license.earthloomholdings.com una sola volta; le tue tabelle non lasciano mai il tuo vault.',
+  soon: 'L’attivazione di Pro sarà disponibile a breve', invalidKey: 'Chiave di licenza non valida. Controlla la chiave e riprova.',
+  deviceLimit: 'Limite di dispositivi raggiunto. Disattiva un altro dispositivo e riprova.',
+  inactive: 'Questa licenza non è attiva. Contatta l’assistenza per ricevere aiuto.', network: 'Impossibile contattare il server delle licenze. Verifica la connessione e riprova.',
+  paste: 'Incolla come tabella Markdown', previewCommand: 'Incolla come tabella Markdown con anteprima…',
+  reformat: 'Riformatta la tabella sotto il cursore', selection: 'Converti la selezione TSV/CSV in tabella',
+  pasted: 'Incollato come tabella – Ctrl/Cmd+Z per annullare', noTable: 'Nessuna tabella trovata.', proRequired: 'Questo comando richiede TableTake Pro.',
+  preview: 'Anteprima della tabella', source: 'Sorgente Markdown', rendered: 'Anteprima renderizzata', insert: 'Inserisci', cancel: 'Annulla',
+  renderError: 'Impossibile visualizzare l’anteprima.', saveError: 'Impossibile salvare le impostazioni di TableTake.',
+} as Partial<Messages>;

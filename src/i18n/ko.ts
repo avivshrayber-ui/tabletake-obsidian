@@ -1,0 +1,23 @@
+import type { Messages } from './en';
+export default {
+  plugin: 'TableTake', general: '일반', output: '출력', licence: '라이선스',
+  autoConvert: '붙여넣은 표 자동 변환', merge: '병합된 셀', dates: '날짜',
+  dateFormat: '날짜 형식', dateOrder: '날짜 순서', keepAlign: '원본 정렬 유지',
+  autoNumberAlign: '숫자 오른쪽 정렬', inline: '인라인 서식 유지', headerRow: '머리글 행',
+  pad: '열 너비 맞추기', trimEmpty: '빈 행과 열 제거',
+  repeat: '내용 반복', blank: '병합된 셀을 빈칸으로', sheets: 'Sheets Extended 표시', html: 'HTML 표',
+  keep: '원본 유지', iso: 'ISO 날짜', custom: '사용자 지정 형식', auto: '자동',
+  DMY: '일 / 월 / 년', MDY: '월 / 일 / 년', YMD: '년 / 월 / 일',
+  first: '첫 번째 행', none: '머리글 없음', pro: 'Pro', unlock: 'Pro 잠금 해제',
+  free: '무료', active: 'Pro 활성화됨', error: '오류: {message}', key: '라이선스 키',
+  activate: '활성화', deactivate: '비활성화', buy: 'TableTake Pro 구매 - $19 일회성 결제',
+  disclosure: '활성화 시 license.earthloomholdings.com에 한 번 연결합니다. 표는 보관소 밖으로 전송되지 않습니다.',
+  soon: 'Pro 활성화가 곧 제공됩니다', invalidKey: '유효하지 않은 라이선스 키입니다. 키를 확인한 후 다시 시도하세요.',
+  deviceLimit: '기기 수 한도에 도달했습니다. 다른 기기에서 비활성화한 후 다시 시도하세요.',
+  inactive: '비활성 상태의 라이선스입니다. 지원팀에 문의하세요.', network: '라이선스 서버에 연결할 수 없습니다. 연결을 확인한 후 다시 시도하세요.',
+  paste: 'Markdown 표로 붙여넣기', previewCommand: '미리보기 후 Markdown 표로 붙여넣기…',
+  reformat: '커서 위치의 표 서식 다시 지정', selection: '선택한 TSV/CSV를 표로 변환',
+  pasted: '표로 붙여넣었습니다 - Ctrl/Cmd+Z로 실행 취소', noTable: '표를 찾을 수 없습니다.', proRequired: '이 명령에는 TableTake Pro가 필요합니다.',
+  preview: '표 미리보기', source: 'Markdown 소스', rendered: '렌더링 미리보기', insert: '삽입', cancel: '취소',
+  renderError: '미리보기를 표시할 수 없습니다.', saveError: 'TableTake 설정을 저장할 수 없습니다.',
+} as Partial<Messages>;

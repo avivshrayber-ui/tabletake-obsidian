@@ -1,0 +1,23 @@
+import type { Messages } from './en';
+export default {
+  plugin: 'TableTake', general: 'Umum', output: 'Keluaran', licence: 'Lisensi',
+  autoConvert: 'Otomatis konversi tabel yang ditempel', merge: 'Sel gabungan', dates: 'Tanggal',
+  dateFormat: 'Format tanggal', dateOrder: 'Urutan tanggal', keepAlign: 'Pertahankan perataan sumber',
+  autoNumberAlign: 'Ratakan angka ke kanan', inline: 'Pertahankan format dalam teks', headerRow: 'Baris tajuk',
+  pad: 'Ratakan kolom dengan spasi', trimEmpty: 'Hapus baris dan kolom kosong',
+  repeat: 'Ulangi isi', blank: 'Kosongkan sel gabungan', sheets: 'Penanda Sheets Extended', html: 'Tabel HTML',
+  keep: 'Pertahankan aslinya', iso: 'Tanggal ISO', custom: 'Format khusus', auto: 'Otomatis',
+  DMY: 'Hari / bulan / tahun', MDY: 'Bulan / hari / tahun', YMD: 'Tahun / bulan / hari',
+  first: 'Baris pertama', none: 'Tanpa tajuk', pro: 'Pro', unlock: 'Buka Pro',
+  free: 'Gratis', active: 'Pro aktif', error: 'Kesalahan: {message}', key: 'Kunci lisensi',
+  activate: 'Aktifkan', deactivate: 'Nonaktifkan', buy: 'Beli TableTake Pro - $19 sekali bayar',
+  disclosure: 'Aktivasi menghubungi license.earthloomholdings.com sekali; tabel Anda tidak pernah keluar dari vault.',
+  soon: 'Aktivasi Pro segera tersedia', invalidKey: 'Kunci lisensi tidak valid. Periksa kunci dan coba lagi.',
+  deviceLimit: 'Batas perangkat tercapai. Nonaktifkan di perangkat lain dan coba lagi.',
+  inactive: 'Lisensi ini tidak aktif. Hubungi dukungan untuk bantuan.', network: 'Tidak dapat menghubungi server lisensi. Periksa koneksi dan coba lagi.',
+  paste: 'Tempel sebagai tabel Markdown', previewCommand: 'Tempel sebagai tabel Markdown dengan pratinjau…',
+  reformat: 'Format ulang tabel di posisi kursor', selection: 'Konversi TSV/CSV yang dipilih menjadi tabel',
+  pasted: 'Ditempel sebagai tabel - Ctrl/Cmd+Z untuk mengurungkan', noTable: 'Tabel tidak ditemukan.', proRequired: 'Perintah ini memerlukan TableTake Pro.',
+  preview: 'Pratinjau tabel', source: 'Sumber Markdown', rendered: 'Pratinjau hasil', insert: 'Sisipkan', cancel: 'Batal',
+  renderError: 'Pratinjau tidak dapat ditampilkan.', saveError: 'Pengaturan TableTake tidak dapat disimpan.',
+} as Partial<Messages>;

@@ -1,0 +1,21 @@
+{
+  "name": "tabletake",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "build": "node esbuild.config.mjs production",
+    "dev": "node esbuild.config.mjs",
+    "build:web": "esbuild web/demo.ts --bundle --format=iife --outfile=web/demo.js --minify"
+  },
+  "devDependencies": {
+    "obsidian": "latest",
+    "typescript": "^5.0.0",
+    "esbuild": "^0.24.0",
+    "vitest": "^2.0.0",
+    "@types/node": "^22.0.0",
+    "tslib": "^2.0.0"
+  }
+}

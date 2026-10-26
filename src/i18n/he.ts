@@ -1,0 +1,23 @@
+import type { Messages } from './en';
+export default {
+  plugin: 'TableTake', general: 'כללי', output: 'פלט', licence: 'רישיון',
+  autoConvert: 'המרה אוטומטית של טבלאות מודבקות', merge: 'תאים ממוזגים', dates: 'תאריכים',
+  dateFormat: 'תבנית תאריך', dateOrder: 'סדר רכיבי התאריך', keepAlign: 'שמירה על היישור המקורי',
+  autoNumberAlign: 'יישור מספרים לימין', inline: 'שמירה על עיצוב הטקסט', headerRow: 'שורת כותרת',
+  pad: 'יישור עמודות באמצעות רווחים', trimEmpty: 'הסרת שורות ועמודות ריקות',
+  repeat: 'חזרה על התוכן', blank: 'השארת תאים ממוזגים ריקים', sheets: 'סמני Sheets Extended', html: 'טבלת HTML',
+  keep: 'שמירה על המקור', iso: 'תאריך ISO', custom: 'תבנית מותאמת אישית', auto: 'אוטומטי',
+  DMY: 'יום / חודש / שנה', MDY: 'חודש / יום / שנה', YMD: 'שנה / חודש / יום',
+  first: 'השורה הראשונה', none: 'ללא כותרת', pro: 'Pro', unlock: 'פתיחת Pro',
+  free: 'חינם', active: 'Pro פעיל', error: 'שגיאה: {message}', key: 'מפתח רישיון',
+  activate: 'הפעלה', deactivate: 'ביטול הפעלה', buy: 'רכישת TableTake Pro - תשלום חד פעמי של $19',
+  disclosure: 'ההפעלה מתחברת אל license.earthloomholdings.com פעם אחת; הטבלאות שלך לעולם אינן יוצאות מהכספת.',
+  soon: 'הפעלת Pro תיפתח בקרוב', invalidKey: 'מפתח הרישיון אינו תקין. יש לבדוק את המפתח ולנסות שוב.',
+  deviceLimit: 'הגעת למגבלת המכשירים. יש לבטל את ההפעלה במכשיר אחר ולנסות שוב.',
+  inactive: 'הרישיון הזה אינו פעיל. יש לפנות לתמיכה לקבלת עזרה.', network: 'לא ניתן להתחבר לשרת הרישיונות. יש לבדוק את החיבור ולנסות שוב.',
+  paste: 'הדבקה כטבלת Markdown', previewCommand: 'הדבקה כטבלת Markdown עם תצוגה מקדימה…',
+  reformat: 'עיצוב מחדש של הטבלה במיקום הסמן', selection: 'המרת TSV/CSV שנבחר לטבלה',
+  pasted: 'הודבק כטבלה - Ctrl/Cmd+Z לביטול', noTable: 'לא נמצאה טבלה.', proRequired: 'פקודה זו דורשת TableTake Pro.',
+  preview: 'תצוגה מקדימה של הטבלה', source: 'מקור Markdown', rendered: 'תצוגה מקדימה של התוצאה', insert: 'הוספה', cancel: 'ביטול',
+  renderError: 'לא ניתן להציג תצוגה מקדימה.', saveError: 'לא ניתן לשמור את הגדרות TableTake.',
+} as Partial<Messages>;

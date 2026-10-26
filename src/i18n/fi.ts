@@ -1,0 +1,23 @@
+import type { Messages } from './en';
+export default {
+  plugin: 'TableTake', general: 'Yleiset', output: 'Tuloste', licence: 'Lisenssi',
+  autoConvert: 'Muunna liitetyt taulukot automaattisesti', merge: 'Yhdistetyt solut', dates: 'Päivämäärät',
+  dateFormat: 'Päivämäärän muoto', dateOrder: 'Päivämäärän järjestys', keepAlign: 'Säilytä alkuperäinen tasaus',
+  autoNumberAlign: 'Tasaa luvut oikealle', inline: 'Säilytä tekstin sisäinen muotoilu', headerRow: 'Otsikkorivi',
+  pad: 'Täytä sarakkeet välilyönneillä', trimEmpty: 'Poista tyhjät rivit ja sarakkeet',
+  repeat: 'Toista sisältö', blank: 'Jätä yhdistetyt solut tyhjiksi', sheets: 'Sheets Extended -merkinnät', html: 'HTML-taulukko',
+  keep: 'Säilytä alkuperäinen', iso: 'ISO-päivämäärä', custom: 'Mukautettu muoto', auto: 'Automaattinen',
+  DMY: 'Päivä / kuukausi / vuosi', MDY: 'Kuukausi / päivä / vuosi', YMD: 'Vuosi / kuukausi / päivä',
+  first: 'Ensimmäinen rivi', none: 'Ei otsikkoriviä', pro: 'Pro', unlock: 'Avaa Pro',
+  free: 'Ilmainen', active: 'Pro käytössä', error: 'Virhe: {message}', key: 'Lisenssiavain',
+  activate: 'Aktivoi', deactivate: 'Poista aktivointi', buy: 'Osta TableTake Pro – kertamaksu $19',
+  disclosure: 'Aktivointi ottaa kerran yhteyden osoitteeseen license.earthloomholdings.com; taulukkosi eivät koskaan poistu holvistasi.',
+  soon: 'Pro-version aktivointi on pian saatavilla', invalidKey: 'Virheellinen lisenssiavain. Tarkista avain ja yritä uudelleen.',
+  deviceLimit: 'Laiteraja on saavutettu. Poista toisen laitteen aktivointi ja yritä uudelleen.',
+  inactive: 'Tämä lisenssi ei ole aktiivinen. Ota yhteyttä tukeen.', network: 'Lisenssipalvelimeen ei saatu yhteyttä. Tarkista yhteys ja yritä uudelleen.',
+  paste: 'Liitä Markdown-taulukkona', previewCommand: 'Liitä Markdown-taulukkona esikatselun kautta…',
+  reformat: 'Muotoile kohdistimen kohdalla oleva taulukko uudelleen', selection: 'Muunna valittu TSV/CSV taulukoksi',
+  pasted: 'Liitetty taulukkona – kumoa painamalla Ctrl/Cmd+Z', noTable: 'Taulukkoa ei löytynyt.', proRequired: 'Tämä komento vaatii TableTake Pro -version.',
+  preview: 'Taulukon esikatselu', source: 'Markdown-lähdekoodi', rendered: 'Muotoiltu esikatselu', insert: 'Lisää', cancel: 'Peruuta',
+  renderError: 'Esikatselua ei voitu näyttää.', saveError: 'TableTake-asetuksia ei voitu tallentaa.',
+} as Partial<Messages>;
